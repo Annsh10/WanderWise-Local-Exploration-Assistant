@@ -84,14 +84,11 @@ def signup():
 def dashboard():
     return render_template('dashboard.html')
 
-# # Load trained models and dataset
-# cosine_sim = pickle.load(open('cosine_similarity_model.pkl', 'rb'))  # Cosine similarity matrix
-# scaler = pickle.load(open('scaler.pkl', 'rb'))  # Scaler for normalizing input
-# df = pd.read_csv('swiggy.csv')  # Restaurant dataset
+
 
 # API Credentials
-FOURSQUARE_API_KEY = "fsq3keQFymCgFJ9nq7LTGDuB1c4g4cICgQMnMsbTdggeRxo="
-MAPBOX_API_KEY = "pk.eyJ1IjoicmFodWwtem9yZSIsImEiOiJjbTZxbGN4dGsxZXowMnFxODFmbHk3cHFjIn0.8iLGhsuTngzMiNCvWfqirA"
+FOURSQUARE_API_KEY = ""
+MAPBOX_API_KEY = ""
 
 FOURSQUARE_URL = "https://api.foursquare.com/v3/places/search"
 MAPBOX_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places/"

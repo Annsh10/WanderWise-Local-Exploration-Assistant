@@ -11,8 +11,12 @@
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <a href="{{ url_for('dashboard') }}" style="text-decoration: none; color: inherit;">WanderWise</a>
-    </div>
+        <a
+          href="{{ url_for('dashboard') }}"
+          style="text-decoration: none; color: inherit"
+          >WanderWise</a
+        >
+      </div>
       <ul class="nav-links">
         <li>
           <a href="{{ url_for('recommend') }}">Personalized Recommendations</a>
@@ -37,41 +41,63 @@
         </div>
       </div>
     </nav>
-    
-    <section id="help">
-        <div class="container">
-          <h2>Need Help?</h2>
-          <div class="contact-info">
-            <p>If you have any questions, feel free to reach out to us:</p>
-            <p><strong>Phone:</strong> +91 9475774598</p>
-            <!-- Replace with your contact number -->
-          </div>
-  
-          <h3 style="color: white; font-size: 28px; font-weight: 600; margin-bottom: 20px;">Contact Us</h3>
 
-          <form
-            id="helpForm"
-            action="https://api.web3forms.com/submit"
-            method="POST"
-          >
-            <input
-              type="hidden"
-              name="access_key"
-              value="c49aa6ad-9b82-4da8-a26a-27c4ef343cb4"
-            />
-            <label for="name">Name:</label>
-            <input type="text" placeholder="Enter your name" id="name" name="name" required />
-  
-            <label for="email">Email:</label>
-            <input type="email" placeholder="Enter your email" id="email" name="email" required />
-  
-            <label for="message">Message:</label>
-            <textarea id="message" placeholder="Type your message..." name="message" required></textarea>
-  
-            <button type="submit">Send Message</button>
-          </form>
+    <section id="help">
+      <div class="container">
+        <h2>Need Help?</h2>
+        <div class="contact-info">
+          <p>If you have any questions, feel free to reach out to us:</p>
+          <p><strong>Phone:</strong> +91 9475774598</p>
+          <!-- Replace with your contact number -->
         </div>
-      </section>
+
+        <h3
+          style="
+            color: white;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+          "
+        >
+          Contact Us
+        </h3>
+
+        <form
+          id="helpForm"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input type="hidden" name="access_key" value="" />
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            placeholder="Enter your name"
+            id="name"
+            name="name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            placeholder="Type your message..."
+            name="message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer>
