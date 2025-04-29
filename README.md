@@ -43,15 +43,15 @@ In a world full of options, finding the perfect local spot can be overwhelming.
 
 | 🌐 Frontend       | ⚙️ Backend     | 🤖 Machine Learning | 🗄️ Database | 🗺️ APIs Used     |
 |------------------|----------------|----------------------|-------------|------------------|
-| HTML, CSS, JS    | PHP            | Python (Sklearn, NLTK), Colab | MySQL       | Mapbox, GoMaps   |
+| HTML, CSS, JS    | Flask            | Python (Sklearn, NLTK), Colab | MySQL       | Mapbox, GoMaps   |
 
 ---
 
 ## 👨‍💻 Team Members / Contributors
 
-- 👨‍💻 [**Rahul Zore**](@)
-- 👩‍💻 [**Diya Thakkar**](@)
-- 👨‍💻 [**Soham Shigvan**](@)
+- 👨‍💻 [**Rahul Zore**](https://github.com/Rahul-Zore2005)
+- 👩‍💻 [**Diya Thakkar**](https://github.com/DiyaT8)
+- 👨‍💻 [**Soham Shigvan**](https://github.com/Soham-Edith)
 
 ---
 
