@@ -49,9 +49,9 @@ In a world full of options, finding the perfect local spot can be overwhelming.
 
 ## 👨‍💻 Team Members / Contributors
 
-- 👨‍💻 [**Rahul Zore**](#)
-- 👩‍💻 [**Diya Thakkar**](#)
-- 👨‍💻 [**Soham Shigvan**](#)
+- 👨‍💻 [**Rahul Zore**](@)
+- 👩‍💻 [**Diya Thakkar**](@)
+- 👨‍💻 [**Soham Shigvan**](@)
 
 ---
 
